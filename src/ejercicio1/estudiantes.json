@@ -1,0 +1,162 @@
+[
+  {
+    "id": "123-456-7890",
+    "university": "University Name",
+    "name": "Rosa Maria",
+    "birthdate": "January 20, 2002",
+    "address": "123 Anywhere St., Any City",
+    "barcode": "123-456-7890"
+  },
+  {
+    "id": "234-567-8901",
+    "university": "University Name",
+    "name": "Juan Carlos",
+    "birthdate": "March 15, 2001",
+    "address": "456 Main St., Other City",
+    "barcode": "234-567-8901"
+  },
+  {
+    "id": "345-678-9012",
+    "university": "University Name",
+    "name": "Ana Sofia",
+    "birthdate": "May 10, 2003",
+    "address": "789 Pine Ave., Some City",
+    "barcode": "345-678-9012"
+  },
+  {
+    "id": "456-789-0123",
+    "university": "University Name",
+    "name": "Diego Alejandro",
+    "birthdate": "July 25, 2000",
+    "address": "321 Oak St., New City",
+    "barcode": "456-789-0123"
+  },
+  {
+    "id": "567-890-1234",
+    "university": "University Name",
+    "name": "Valentina Lopez",
+    "birthdate": "October 5, 2002",
+    "address": "654 Maple Rd., Big City",
+    "barcode": "567-890-1234"
+  },
+  {
+    "id": "678-901-2345",
+    "university": "University Name",
+    "name": "Santiago Rodriguez",
+    "birthdate": "December 12, 2001",
+    "address": "987 Elm St., Old City",
+    "barcode": "678-901-2345"
+  },
+  {
+    "id": "789-012-3456",
+    "university": "University Name",
+    "name": "Camila Martinez",
+    "birthdate": "February 28, 2002",
+    "address": "852 First Ave., Central City",
+    "barcode": "789-012-3456"
+  },
+  {
+    "id": "890-123-4567",
+    "university": "University Name",
+    "name": "Mateo Gutierrez",
+    "birthdate": "April 17, 2000",
+    "address": "369 Second St., East City",
+    "barcode": "890-123-4567"
+  },
+  {
+    "id": "901-234-5678",
+    "university": "University Name",
+    "name": "Isabella Ramirez",
+    "birthdate": "June 22, 2003",
+    "address": "741 Third Ave., West City",
+    "barcode": "901-234-5678"
+  },
+  {
+    "id": "012-345-6789",
+    "university": "University Name",
+    "name": "Sebastian Morales",
+    "birthdate": "August 9, 2001",
+    "address": "258 Fourth St., South City",
+    "barcode": "012-345-6789"
+  },
+  {
+    "id": "112-233-4455",
+    "university": "University Name",
+    "name": "Sofia Torres",
+    "birthdate": "September 14, 2000",
+    "address": "963 Fifth Ave., North City",
+    "barcode": "112-233-4455"
+  },
+  {
+    "id": "223-344-5566",
+    "university": "University Name",
+    "name": "Emilio Fernandez",
+    "birthdate": "November 30, 2002",
+    "address": "852 Sixth St., Metro City",
+    "barcode": "223-344-5566"
+  },
+  {
+    "id": "334-455-6677",
+    "university": "University Name",
+    "name": "Luciana Diaz",
+    "birthdate": "January 5, 2001",
+    "address": "741 Seventh Ave., Lake City",
+    "barcode": "334-455-6677"
+  },
+  {
+    "id": "445-566-7788",
+    "university": "University Name",
+    "name": "Benjamin Alvarez",
+    "birthdate": "March 20, 2003",
+    "address": "639 Eighth St., River City",
+    "barcode": "445-566-7788"
+  },
+  {
+    "id": "556-677-8899",
+    "university": "University Name",
+    "name": "Victoria Castro",
+    "birthdate": "May 15, 2000",
+    "address": "528 Ninth Ave., Mountain City",
+    "barcode": "556-677-8899"
+  },
+  {
+    "id": "667-788-9900",
+    "university": "University Name",
+    "name": "Nicolas Ortiz",
+    "birthdate": "July 8, 2002",
+    "address": "417 Tenth St., Ocean City",
+    "barcode": "667-788-9900"
+  },
+  {
+    "id": "778-899-0011",
+    "university": "University Name",
+    "name": "Elena Mendoza",
+    "birthdate": "September 27, 2001",
+    "address": "306 College Ave., University City",
+    "barcode": "778-899-0011"
+  },
+  {
+    "id": "889-900-1122",
+    "university": "University Name",
+    "name": "Joaquin Vargas",
+    "birthdate": "November 11, 2003",
+    "address": "295 University Blvd., College City",
+    "barcode": "889-900-1122"
+  },
+  {
+    "id": "990-011-2233",
+    "university": "University Name",
+    "name": "Mariana Perez",
+    "birthdate": "February 14, 2000",
+    "address": "184 Innovation St., Tech City",
+    "barcode": "990-011-2233"
+  },
+  {
+    "id": "001-122-3344",
+    "university": "University Name",
+    "name": "Tomas Herrera",
+    "birthdate": "April 30, 2002",
+    "address": "273 Digital Ave., Smart City",
+    "barcode": "001-122-3344"
+  }
+]

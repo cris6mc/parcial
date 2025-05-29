@@ -1,6 +1,6 @@
-import React from 'react';
-import Timer from './ejercicio2/Timer';
-import './ejercicio2/App.css';
+import React from "react";
+import Timer from "./ejercicio2/Timer";
+import "./ejercicio2/App.css";
 
 function App() {
   return (

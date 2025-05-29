@@ -1,0 +1,15 @@
+/* Ejercicio1.css - Main container styling */
+
+.ejercicio1-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+/* Global styles for exercise 1 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
