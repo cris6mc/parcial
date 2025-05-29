@@ -1,0 +1,21 @@
+/* ComponentGeneral.css - Main component styling */
+
+.component-general {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.component-general h1 {
+  text-align: center;
+  color: #c82333;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  padding: 40px 0;
+}

@@ -1,0 +1,153 @@
+/* Estudiante.css - Student ID Card Styling */
+
+.student-card {
+  width: 100%;
+  max-width: 400px;
+  height: auto; /* Cambiado de altura fija a auto para adaptarse al contenido */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  background-color: #c82333;
+  color: white;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.university-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 10px;
+  position: relative;
+}
+
+.logo-icon::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.university-name {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 320px; /* Aumentar de 220px a 320px para dar más espacio */
+}
+
+.student-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #c82333;
+  overflow: hidden;
+  margin-right: 20px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.student-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.student-id-title {
+  background-color: #c82333;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  margin: 0 0 20px 120px;
+  width: calc(100% - 120px);
+}
+
+.student-info {
+  margin-left: 120px;
+  width: calc(100% - 120px);
+  display: block;
+  margin-bottom: 15px;
+  color: #333; /* Asegurar color de texto visible */
+}
+
+.student-name {
+  color: #c82333;
+  font-size: 24px;
+  margin-bottom: 15px; /* Incrementado para dar más espacio */
+  font-weight: bold;
+}
+
+.info-row {
+  margin: 10px 0; /* Aumentar margen vertical */
+  display: flex;
+  width: 100%;
+  align-items: center; /* Alinear elementos verticalmente */
+  background-color: rgba(
+    245,
+    245,
+    245,
+    0.5
+  ); /* Fondo sutil para hacerlo más visible */
+  padding: 5px; /* Añadir padding */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+.info-label {
+  min-width: 85px; /* Ancho mínimo en lugar de ancho fijo */
+  font-weight: bold;
+  display: inline-block;
+}
+
+.info-colon {
+  margin: 0 5px;
+  display: inline-block; /* Asegurar que se muestre */
+}
+
+.info-value {
+  flex: 1;
+  display: inline-block;
+  color: #444; /* Color más oscuro para mejor contraste */
+  font-weight: 500; /* Un poco más de peso visual */
+  text-align: left; /* Alinear texto a la izquierda */
+  word-break: break-word; /* Permitir saltos de palabras para textos largos */
+}
+
+.card-footer {
+  margin-top: auto; /* Para que siempre esté al final */
+  padding: 15px;
+  background-color: white;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+}
