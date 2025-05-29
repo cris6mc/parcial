@@ -1,0 +1,34 @@
+/* ListaEstudiantes.css - Responsive grid for student cards */
+
+.lista-estudiantes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -15px;
+}
+
+.estudiante-container {
+  padding: 10px;
+}
+
+/* Two-column layout for md screens and above (≥ 768px) */
+.two-columns .estudiante-container {
+  width: 50%;
+}
+
+/* Single-column layout for sm screens and below (< 768px) */
+.single-column .estudiante-container {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .lista-estudiantes {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .estudiante-container {
+    width: 100%;
+    max-width: 400px;
+  }
+}
