@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Cronómetro Regresivo</h1>
+        <h1>Cronómetro</h1>
         <Timer />
       </div>
     </div>
