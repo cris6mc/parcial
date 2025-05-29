@@ -3,6 +3,7 @@
 .student-card {
   width: 100%;
   max-width: 400px;
+  min-width: 320px; /* Asegurar un ancho mínimo */
   height: auto; /* Cambiado de altura fija a auto para adaptarse al contenido */
   border-radius: 8px;
   overflow: hidden;
@@ -95,7 +96,9 @@
 
 .student-info {
   margin-left: 120px;
-  width: calc(100% - 120px);
+  width: calc(
+    100% - 140px
+  ); /* Un poco más de espacio para evitar desbordamiento */
   display: block;
   margin-bottom: 15px;
   color: #333; /* Asegurar color de texto visible */
@@ -110,37 +113,37 @@
 
 .info-row {
   margin: 10px 0; /* Aumentar margen vertical */
-  display: flex;
+  display: block; /* Cambiado de flex a block para más fiabilidad */
   width: 100%;
-  align-items: center; /* Alinear elementos verticalmente */
-  background-color: rgba(
-    245,
-    245,
-    245,
-    0.5
-  ); /* Fondo sutil para hacerlo más visible */
   padding: 5px; /* Añadir padding */
   border-radius: 4px; /* Bordes redondeados */
 }
 
 .info-label {
+  display: inline-block;
   min-width: 85px; /* Ancho mínimo en lugar de ancho fijo */
   font-weight: bold;
-  display: inline-block;
+  vertical-align: top; /* Alineación vertical mejorada */
 }
 
 .info-colon {
+  display: inline-block;
   margin: 0 5px;
-  display: inline-block; /* Asegurar que se muestre */
+  vertical-align: top;
 }
 
 .info-value {
   flex: 1;
-  display: inline-block;
-  color: #444; /* Color más oscuro para mejor contraste */
-  font-weight: 500; /* Un poco más de peso visual */
-  text-align: left; /* Alinear texto a la izquierda */
-  word-break: break-word; /* Permitir saltos de palabras para textos largos */
+  display: block; /* Cambiado de inline-block a block */
+  color: #444;
+  font-weight: 500;
+  text-align: left;
+  word-break: normal; /* Cambiado de break-word */
+  word-wrap: normal; /* Cambiado para mostrar texto normalmente */
+  white-space: normal; /* Evitar que los caracteres se muestren verticalmente */
+  letter-spacing: normal; /* Espaciado normal entre letras */
+  overflow: visible; /* Asegurar que el texto no se corte */
+  line-height: 1.4; /* Mejorar el espaciado entre líneas */
 }
 
 .card-footer {

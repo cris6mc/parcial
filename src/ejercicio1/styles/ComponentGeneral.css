@@ -1,7 +1,8 @@
 /* ComponentGeneral.css - Main component styling */
 
 .component-general {
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1400px; /* Aumentar el ancho máximo */
   margin: 0 auto;
   padding: 20px;
 }
